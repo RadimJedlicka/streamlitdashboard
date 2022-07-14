@@ -11,7 +11,7 @@ import plotly.express as px
 
 engine = create_engine("mysql+pymysql://data-student:u9AB6hWGsNkNcRDm@data.engeto.com:3306/data_academy_04_2022")
 
-df_bikes = pd.read_sql(sql='SELECT * FROM edinburgh_bikes', con=engine)
+df_bikes = pd.read_sql(sql='SELECT * FROM edinburgh_bikes limit 200000', con=engine)
 
 # ###########
 # Vizualizace
