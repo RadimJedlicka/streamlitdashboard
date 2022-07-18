@@ -2,4 +2,4 @@ import streamlit as st
 
 st.title('Moje prvni appka')
 
-st.wrote('Toto je moje prvni appka')
+st.write('Toto je moje prvni appka')
